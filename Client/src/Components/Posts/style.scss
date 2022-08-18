@@ -1,0 +1,47 @@
+.form_navigator{
+  height: 0%;
+  position: relative;
+}
+ .form_navigator_icon{
+  position: absolute;
+  right: 4rem;
+  top: -40px;
+   svg{
+    font-size: 25px;
+    padding-left: 30px;
+    &:hover{
+     transform: scale(1.2);
+     cursor: pointer;
+    }
+
+    @media screen and (max-width: 700px) {
+       padding-left: 15px;
+    }
+   }
+   @media screen and (max-width: 700px) {
+      right: 24px;
+    }
+
+    .fni_form{
+      color: blue;
+    }
+ }
+.app__tittle{
+  padding: 1rem 0 0.6rem 0;
+  margin: 0;
+    @media screen and (max-width: 800px) {
+   text-align: left;
+   padding-left: 3rem;
+  }
+   @media screen and (max-width: 700px) {
+  font-size: 20px;
+  padding-left: 2rem;
+  }
+}
+
+.app__work-portfoli {
+  display: flex !important;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}

@@ -1,0 +1,83 @@
+.app__tit{
+  padding: 0.6rem 0 0.6rem 0;
+  margin: 3rem 0 ;
+  border-radius: 8px;
+  width: 100%;
+  background-color: white;
+  
+  @media screen and (max-width: 768px) {
+    width: 70%;
+    margin:2rem auto;
+    font-size: 20px;
+  }
+
+}
+
+.app__footer-form {
+  flex-direction: column;
+  margin: 1rem 2rem;
+
+  div {
+    width: 100%;
+
+    margin: 0.75rem 0;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+
+    input,
+    textarea {
+      width: 100%;
+      padding: 0.95rem;
+      border: none;
+      border-radius: 7px;
+      background-color: white;
+      outline: none;
+    }
+
+    &:hover {
+      box-shadow: 0 0 15px #6e5dcf;
+    }
+
+     @media screen and (max-width: 768px) {
+    width: 70%;
+  }
+  }
+
+  button {
+    padding: 0.7rem 2rem;
+    border-radius: 10px;
+    border: none;
+    background-color:#6e5dcf;
+    font-weight: 500;
+    color: white;
+    outline: none;
+    margin: 2rem 0 0 0;
+
+    transition: cubic-bezier(0.55, 0.085, 0.68, 0.53);
+    cursor: pointer;
+
+    &:hover {
+      background-color: #b357ff;
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    width: 100%;
+    margin: 1rem 0;
+  }
+}
+
+.app__flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login_container{
+    width: 400px;
+    margin: auto;
+      @media screen and (max-width: 600px) {
+    width: auto;
+  }
+}
